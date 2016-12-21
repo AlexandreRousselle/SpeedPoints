@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SpeedPoints</string>
+    <string name="points_text">Entrez votre nombre de points mensuel :</string>
 </resources>
