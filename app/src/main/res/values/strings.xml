@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">SpeedPoints</string>
     <string name="points_text">Entrez votre nombre de points mensuel :</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Speed Points</string>
+
+    <string name="main_text">Bienvenue sur l\'application Speed Points</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="calcul_text">Entrez les points de vos opposants ainsi que le coefficient :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
