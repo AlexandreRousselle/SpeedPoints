@@ -5,10 +5,228 @@
     tools:context="fr.speedpoints.speedpoints.CalculFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/calcul_text"
-        android:id="@+id/textView" />
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:text="@string/calcul_text"
+            android:id="@+id/textViewConfiguration"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="0.35"
+            android:weightSum="1">
+
+            <TextView
+                android:text="SPID :"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewSPID"
+                android:gravity="center"
+                android:layout_weight="0.16" />
+
+            <TextView
+                android:text="0.0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:layout_weight="0.70" />
+
+            <Button
+                android:text="Calculer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonCalcul"
+                android:layout_weight="0.10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner2"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner3"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner4"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner5"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner6"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner7"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText8"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner8"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </FrameLayout>
